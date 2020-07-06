@@ -10,7 +10,7 @@ Click here to run the code in your browser:
 
 This is what the program does step-by-step:
   - Retrieves data from the first 2 pages of the the hacker news URL using the requests library get method.
-  - Parsing the html with Beautiful Soup.
+  - Parses the html with Beautiful Soup.
   - Creates lists of the links and the subtext (that contains the vote count) for each article with the appropriate CSS selectors using the select method.
   - Enumerates the links (to generate an index) and loops through them, grabbing the title of the article and the link to it with the getText and get methods.
   - Finds stories with votes using the index for each link, converts the vote count to an integer, and for articles that have 100 or more votes, adds the title, link and votes as a dictionary to a new list of hacker news articles to read.
