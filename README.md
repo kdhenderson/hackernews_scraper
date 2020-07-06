@@ -2,9 +2,9 @@
 
 This web scraping project is a tool to find the most popular/important stories (those with 100+ points) on the first two pages of the hacker news site.
 
-Click here for a live, interactive version of the code:
+Click here to run the code in your browser:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kdhenderson/hackernews_scraper/master)
-- Click on the 'New' dropdown button and select 'Terminal'
+  - Click on the 'New' dropdown button and select 'Terminal'
   - Run the program from the command line like this:
 	$ python3 scrape.py
 
